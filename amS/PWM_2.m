@@ -57,12 +57,6 @@ xlabel('Time index');
 title('Modulated Signal');
 grid on;
 
-% Plotting in frequency domain
-N = length(modulated);
-f = (-N/2:N/2-1)*(fs/N); % Frequency vector
-modulated_fft = fftshift(abs(fft(modulated,N)));
-demodulated_fft = fftshift(abs(fft(demodulated,N)));
-
 figure;
 subplot(3,1,1);
 plot(t_mod,demodulated,'k');
@@ -71,6 +65,12 @@ axis([0 1 -1.5 1.5]);
 xlabel('Time index');
 title('Demodulated Signal');
 grid on;
+
+% Plotting in frequency domain
+N = length(modulated);
+f = (-N/2:N/2-1)*(fs/N); % Frequency vector
+modulated_fft = fftshift(abs(fft(modulated,N)));
+demodulated_fft = fftshift(abs(fft(demodulated,N)));
 
 subplot(3,1,2);
 plot(f/1000,modulated_fft,'m'); % Frequency in kHz
