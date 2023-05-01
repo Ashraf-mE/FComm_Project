@@ -3,7 +3,7 @@ This is a Fundamentals of communication project work done in my 4th semester
 
 # How the idea strike ?
 This is a team project and the project was told to be on the topics which were taught in classes whether software(MATLAB) or hardware.
-And since I had intrest in MATLAB, I proposed the idea to build a signal analysis workspace which would be a simplied one and our team also agreed to it. So that the root for the idea.
+And since I had intrest in MATLAB, I proposed the idea to build a signal analysis workspace which would be a simplied one and our team also agreed to it. So that's the root for the idea.
 
 # How to use/run our project ?
 
