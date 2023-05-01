@@ -11,3 +11,6 @@ And since I had intrest in MATLAB, I proposed the idea to build a signal analysi
 2. Then you go the command window and type "appdesigner". You can also find it in the matlab inbuilt apps.
 3. Select the FComm_Project folder which you would be clonned from this repo.
 4. Finally, run the "FrontPage" file, you will find a new window popped onto your screen and you are good to use it.
+
+# Note:
+It may not be perfect, we did whatever we can in a given limited time to our best. There might be some errors and I would love to add your contributions if you have any.
